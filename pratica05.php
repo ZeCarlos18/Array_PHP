@@ -12,7 +12,9 @@
     $especieProcurada = 'Pardal';
     if (in_array($especieProcurada, $especiesObservadas)){
         echo "Um pardal foi observado<br><br>";
-    }else{
+    }
+    else
+    {
         echo "Nenhum Pardal foi observado<br><br>";
     }
     $especiesUnicas = array_unique($especiesObservadas);
